@@ -5,8 +5,6 @@ html, body {
 }
 
 body {
-  display: block;
-  margin: 8px;
 }
 
 header {
@@ -21,7 +19,6 @@ header {
 #navbar {
     position: fixed;
     display: inline-block;
-    min-width: 290px;
     top: 0px;
     left: 0px;
     width: 300px;
@@ -64,12 +61,12 @@ li {
 } 
 
 #main-doc header{
-  text-align:left;
-  margin:0px;
+  text-align: left;
+  margin: 0px;
 }
 
 #main-doc {
-  position: absolute;
+    position: absolute;
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
