@@ -95,6 +95,10 @@ p {
     margin-inline-end: 0px;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 section article{
   color: #4d4e53;
   margin:15px;
@@ -120,7 +124,7 @@ code{
 }
 
 
-
+/**====================Responsive Media Queries=================================== **/
 
 
 
@@ -148,6 +152,20 @@ code{
 
 
 @media only screen and (max-width: 518px){
+
+ #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+}
+
 #navbar li {
     color: #4d4e53;
     border: 1px solid;
@@ -167,6 +185,20 @@ code{
 
 
 @media only screen and (max-width: 400px) {
+
+ #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+}
+  
 code {
     margin-left: -20px;
     width: 100%;
