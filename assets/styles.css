@@ -1,5 +1,4 @@
 html, body {
-  min-width: 290px;
   background-color: #ffffff;
   font-family: 'Open Sans',Arial,sans-serif;
   line-height: 1.5;
@@ -185,6 +184,11 @@ code{
 
 
 @media only screen and (max-width: 400px) {
+
+  body {
+  display: block;
+  margin: 20px;
+}
 
  #navbar {
     background-color: white;
