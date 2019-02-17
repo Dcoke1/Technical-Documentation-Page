@@ -5,6 +5,8 @@ html, body {
 }
 
 body {
+  display: block;
+  margin: 8px;
 }
 
 header {
@@ -130,19 +132,31 @@ code{
     background-color: white;
     position: absolute;
     top: 0;
-    padding: 0;
-    margin: 0;
+    padding-bottom: 75px;
+    margin: 0px;
     width: 100%;
-    max-height: 275px;
+    max-height: 300px;
     border: none;
     z-index: 1;
     border-bottom: 2px solid;
+}
+  
+  #navbar li {
+    color: #4d4e53;
+    border: 1px solid;
+    border-bottom-width: 0px;
+    padding: 4px;
+    padding-left: 45px;
+    list-style: none;
+    position: relative;
+    left: -50px;
+    width: 100%;
 }
 
 #main-doc {
     position: relative;
     margin-left: 0px;
-    margin-top: 270px;
+    margin-top: 340px;
 }
 }
 
@@ -156,17 +170,17 @@ code{
     padding: 0;
     margin: 0;
     width: 100%;
-    max-height: 275px;
+    max-height: 375px;
     border: none;
     z-index: 1;
     border-bottom: 2px solid;
 }
 
-#navbar li {
+  #navbar li {
     color: #4d4e53;
     border: 1px solid;
     border-bottom-width: 0px;
-    padding: 4px;
+    padding: 0px;
     padding-left: 45px;
     list-style: none;
     position: relative;
@@ -175,7 +189,9 @@ code{
 }
 
 #main-doc {
-    margin-left: -10px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 340px;
 }
 }
 
@@ -266,7 +282,7 @@ section article {
 }
 }
 
-}
+
 
 
 
